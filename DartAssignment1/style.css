@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+.navbar {
+	background-color: #f2e7eb;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 60px;
+	position: sticky;
+	top: 0;
+}
+
+.logo {
+	width: 30%;
+	margin: 0 5%;
+}
+
+.logo img {
+	width: 170px;
+	object-fit: contain;
+}
+
+.nav {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 10%;
+}
+
+.active {
+	color: #d15f76;
+}
+
+.itemTop {
+	color: gray;
+	font-weight: bold;
+}
+
+.jombotron img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.main {
+	background-color: #f2e7eb;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.right {
+}
+
+.left h1 {
+	font-size: 30px;
+	color: #d15f76;
+	padding: 20px 0;
+}
+
+.left p {
+	padding: 5px 0px;
+	color: rgb(136, 136, 136);
+}
+
+.big {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.left a {
+	color: rgb(68, 67, 67);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.navbarBottom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgb(206, 206, 48);
+	text-align: center;
+}
+
+.item {
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.item img {
+	width: 40px;
+	color: white;
+	margin: 10px;
+}
